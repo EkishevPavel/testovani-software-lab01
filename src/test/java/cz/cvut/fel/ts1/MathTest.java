@@ -9,5 +9,6 @@ public class MathTest {
     public void factorialTest(){
         Math m = new Math();
         assertEquals(m.factorial(3),6);
+        System.out.println("hello new branch");
     }
 }
